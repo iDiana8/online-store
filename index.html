@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин — Hero & Модели</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==================== HERO ==================== -->
+    <section class="hero">
+        <header class="header">
+            <div class="header__container">
+                <a href="#" class="header__logo">
+                    MW
+                    <span class="header__logo-line"></span>
+                </a>
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li><a href="#" class="header__nav-link">
+                                <svg class="header__nav-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="1.5">
+                                    <path
+                                        d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01z" />
+                                </svg>
+                                Главная
+                            </a></li>
+                        <li><a href="#" class="header__nav-link">
+                                <svg class="header__nav-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="1.5">
+                                    <path
+                                        d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4zM3 6h18M16 10a4 4 0 01-8 0" />
+                                </svg>
+                                Каталог
+                            </a></li>
+                        <li><a href="#" class="header__nav-link">
+                                <svg class="header__nav-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="1.5">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <path d="M12 6v6l4 2" />
+                                </svg>
+                                О бренде
+                            </a></li>
+                        <li><a href="#" class="header__nav-link">
+                                <svg class="header__nav-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="1.5">
+                                    <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                                </svg>
+                                Контакты
+                            </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="hero__deco hero__deco--left" aria-hidden="true"></div>
+        <div class="hero__deco hero__deco--right" aria-hidden="true"></div>
+
+        <div class="hero__container">
+            <div class="hero__content">
+                <span class="hero__badge">Новая коллекция</span>
+                <h1 class="hero__title">Вещи, в которых<br>ты&nbsp;настоящая</h1>
+                <p class="hero__subtitle">Лаконичный стиль, натуральные ткани и внимание к каждой детали. Открой одежду,
+                    которая подчеркнёт твою индивидуальность.</p>
+                <div class="hero__actions">
+                    <a href="#" class="btn btn--primary">Смотреть каталог <span class="btn__arrow">→</span></a>
+                    <a href="#" class="btn btn--secondary">О бренде</a>
+                </div>
+                <div class="hero__stats">
+                    <div class="hero__stat"><span class="hero__stat-value">300+</span><span
+                            class="hero__stat-label">моделей</span></div>
+                    <div class="hero__stat"><span class="hero__stat-value">4.9</span><span
+                            class="hero__stat-label">рейтинг</span></div>
+                    <div class="hero__stat"><span class="hero__stat-value">12k</span><span
+                            class="hero__stat-label">покупателей</span></div>
+                </div>
+            </div>
+            <div class="hero__visual">
+                <div class="hero__image-wrapper">
+                    <img src="img/HBWxo.jpg" alt="Описание"
+                        style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-lg);">
+                    <div class="hero__tag hero__tag--top">🆕 New</div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="hero__scroll-hint">
+            <span>Листай вниз</span>
+            <div class="hero__scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ==================== МОДЕЛИ ==================== -->
+    <section class="models">
+        <div class="models__container">
+            <div class="section-header">
+                <h2 class="section-title">Модели сезона</h2>
+                <a href="#" class="section-more">Смотреть все →</a>
+            </div>
+
+            <div class="models-grid">
+                <!-- Карточка 1 -->
+                <article class="model-card">
+                    <div class="model-card__img">
+                        <div class="img-placeholder">ФОТО</div>
+                    </div>
+                    <div class="model-card__body">
+                        <h3 class="model-card__title">Платье «Элегия»</h3>
+                        <span class="model-card__price">14 900 ₽</span>
+                        <a href="#" class="model-card__link">Подробнее →</a>
+                    </div>
+                </article>
+
+                <!-- Карточка 2 -->
+                <article class="model-card">
+                    <div class="model-card__img">
+                        <div class="img-placeholder">ФОТО</div>
+                    </div>
+                    <div class="model-card__body">
+                        <h3 class="model-card__title">Костюм «Сканди»</h3>
+                        <span class="model-card__price">22 500 ₽</span>
+                        <a href="#" class="model-card__link">Подробнее →</a>
+                    </div>
+                </article>
+
+                <!-- Карточка 3 -->
+                <article class="model-card">
+                    <div class="model-card__img">
+                        <div class="img-placeholder">ФОТО</div>
+                    </div>
+                    <div class="model-card__body">
+                        <h3 class="model-card__title">Тренч «Весна»</h3>
+                        <span class="model-card__price">18 200 ₽</span>
+                        <a href="#" class="model-card__link">Подробнее →</a>
+                    </div>
+                </article>
+
+                <!-- Карточка 4 -->
+                <article class="model-card">
+                    <div class="model-card__img">
+                        <div class="img-placeholder">ФОТО</div>
+                    </div>
+                    <div class="model-card__body">
+                        <h3 class="model-card__title">Топ «Минимал»</h3>
+                        <span class="model-card__price">6 800 ₽</span>
+                        <a href="#" class="model-card__link">Подробнее →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
